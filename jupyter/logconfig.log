@@ -1,0 +1,8 @@
+2020-05-23 16:01:44,183 - Jupyter test - INFO - logger configured
+2020-05-23 16:01:53,273 - root - INFO - info info
+2020-05-23 16:02:31,458 - Jupyter test - INFO - logger configured
+2020-05-23 16:02:35,038 - root - INFO - info info
+2020-05-23 16:02:40,756 - root - WARNING - argh
+2020-05-23 16:02:41,822 - Jupyter test - WARNING - argh
+2020-05-23 16:18:17,359 - Jupyter test - INFO - logger configured
+2020-05-23 16:18:23,501 - Jupyter test - WARNING - argh
