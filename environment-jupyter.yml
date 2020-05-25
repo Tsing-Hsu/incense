@@ -1,0 +1,9 @@
+name: stocking-jupyter
+channels:
+- defaults
+
+dependencies:
+- python=3
+- pylint
+- pyyaml
+- jupyter
