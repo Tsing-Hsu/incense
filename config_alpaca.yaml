@@ -1,0 +1,7 @@
+APCA-API-KEY-ID: <your_api_key>
+APCA-API-SECRET-KEY: <your_secret_key>
+Alpaca-live-api-domain: api.alpaca.markets
+Alpaca-paper-api-domain: paper-api.alpaca.markets
+Alpaca-data-api-domain: data.alpaca.markets
+Alpaca-UUID: 904837e3-3b76-47ec-b432-046db621571b
+Alpaca-api_version: 'v2'
