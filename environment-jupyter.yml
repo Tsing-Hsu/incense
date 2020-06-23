@@ -1,9 +1,11 @@
-name: stocking-jupyter
+name: incense-jupyter
 channels:
 - defaults
+- conda-forge
 
 dependencies:
 - python=3
 - pylint
 - pyyaml
 - jupyter
+- bandit
