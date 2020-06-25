@@ -4,6 +4,9 @@ import yaml
 logger = logging.getLogger(__name__)
 
 def load_config_yaml(configfilename = None):
+    
+    parsed_yaml_file = None
+
     try:
         a_yaml_file = open(configfilename)
     except FileNotFoundError as error:
