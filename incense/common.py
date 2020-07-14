@@ -1,14 +1,18 @@
 import logging
+from logging import Logger
+from typing import Dict, TextIO
+
+
 import yaml
 
-logger = logging.getLogger(__name__)
+logger: Logger = logging.getLogger(__name__)
 
-def load_config_yaml(configfilename = None):
+def load_config_yaml(configfilename: str = None) -> Dict:
     
-    parsed_yaml_file = None
+    parsed_yaml_file: Dict = None
 
     try:
-        a_yaml_file = open(configfilename)
+        a_yaml_file: TextIO = open(configfilename)
     except FileNotFoundError as error:
         logger.error("File not found: %s", error)
         
