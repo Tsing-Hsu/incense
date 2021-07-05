@@ -1,3 +1,3 @@
-# stocking - stock information gatherer
+# Incense - stock information gatherer
 
 Stock stuff
